@@ -12,6 +12,10 @@ import BenimFirmam from './images/benimfirmam.PNG';
 import LodosKaraburun from "./images/lodoskaraburun.PNG"
 import OddoTex from "./images/oddotex.PNG"
 import Sento from "./images/sento.PNG"
+import Musaid from "./images/musaid.PNG"
+import Weather from "./images/weather.PNG"
+import Doviz from "./images/doviz.PNG"
+import Todo from "./images/todo.PNG"
 
 function App() {
   const downloadCv = () => {
@@ -94,10 +98,14 @@ function App() {
           <p className='text-center'>Öğrendiğim becerileri pratiğe dökebilmek için veya freelance olarak hizmet verdiğim projeler.</p>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 w-full gap-x-[20px] gap-y-[30px]'>
-          <ProjectCard img={BenimFirmam} projectName="BenimFirmam" description="Dil değiştirme olayını kodlamada yardım ettim." live="https://benimfirmam.com/" />
-          <ProjectCard img={LodosKaraburun} projectName="Lodos Karaburun" description="Front End kısmında ufak hata düzeltmeleri, slider kodlaması vs. yaptım." live="https://lodoskaraburun.com/" />
-          <ProjectCard img={OddoTex} projectName="Oddo Tekstil" description="Bütün sayfalarının front end kodlamasını yaptım." live="https://oddotex.com/" />
-          <ProjectCard img={Sento} projectName="Sento" description="Front End kısmında hata düzeltmeleri yaptım ve bazı Gsap animasyonları ile ilgilendim." live="https://sento.com.tr/" />
+          <ProjectCard img={Musaid} projectName="Musaid" description="Sayfa kodlamaları ve bazı API bağlama işlemleri yaptım." link="https://front.musaid.de/" />
+          <ProjectCard img={BenimFirmam} projectName="BenimFirmam" description="Dil değiştirme olayını kodlamada yardım ettim." link="https://benimfirmam.com/" />
+          <ProjectCard img={LodosKaraburun} projectName="Lodos Karaburun" description="Front End kısmında ufak hata düzeltmeleri, slider kodlaması vs. yaptım." link="https://lodoskaraburun.com/" />
+          <ProjectCard img={OddoTex} projectName="Oddo Tekstil" description="Bütün sayfalarının front end kodlamasını yaptım." link="https://oddotex.com/" />
+          <ProjectCard img={Sento} projectName="Sento" description="Front End kısmında hata düzeltmeleri yaptım ve bazı Gsap animasyonları ile ilgilendim." link="https://sento.com.tr/" />
+          <ProjectCard img={Weather} projectName="Hava Durumu" description="Open Weather Map API'ını kullanarak React ile geliştirdiğim bir hava durumu uygulaması." link="https://weather-app-reino.vercel.app/" />
+          <ProjectCard img={Doviz} projectName="Döviz Kuru Takip" description="React ile geliştirdiğim, döviz kurunun takip edilebileceği ve dönüştürme işlemlerinin bulunduğu bir uygulama." link="https://doviz-kuru-takip.vercel.app/" />
+          <ProjectCard img={Todo} projectName="To-Do List" description="React ile geliştirdiğim, yapılacak görevlerin eklenip, silinebileceği ve bittiğine dair işaret bırakılabilen bir to-do list." link="https://reino-todo-list.vercel.app/" />
         </div>
       </section>
       <footer id='footer' className='flex flex-col pb-[20px] items-center gap-[40px] w-full mt-[100px]'>
