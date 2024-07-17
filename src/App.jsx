@@ -8,6 +8,8 @@ import reactIcon from './images/react.png'
 import vueIcon from './images/vue.png'
 import tailwindIcon from './images/tailwind.png'
 import scssIcon from './images/scss.png'
+import gitlabIcon from './images/gitlab.png'
+import githubIcon from './images/github.png'
 import ExperienceCard from './components/ExperienceCard';
 import ProjectCard from './components/ProjectCard';
 import BenimFirmam from './images/benimfirmam.PNG';
@@ -83,6 +85,8 @@ function App() {
           <TechnologyCard icon={vueIcon} title="Vue JS" description="Vue.js, kullanıcı arayüzleri ve tek sayfalık uygulamalar (SPA) oluşturmak için kullanılan, açık kaynaklı bir araçtır." />
           <TechnologyCard icon={tailwindIcon} title="Tailwind CSS" description="Tailwind CSS, hızlı ve esnek bir şekilde modern web sayfaları tasarlamak için kullanılan bir yardımcı stil kütüphanesidir." />
           <TechnologyCard icon={scssIcon} title="SCSS" description="(Sassy CSS), Sass'ın (Syntactically Awesome Style Sheets) popüler sözdizimlerinden biridir ve CSS'in yeteneklerini genişleten bir preprocessor'dür." />
+          <TechnologyCard icon={gitlabIcon} title="GitLab" description="GitLab, yazılım geliştirme süreçlerini yönetmek, sürüm kontrolü sağlamak ve DevOps uygulamalarını desteklemek için kullanılan, web tabanlı bir platformdur." />
+          <TechnologyCard icon={githubIcon} title="GitHub" description="GitHub, yazılım geliştirme projelerini barındırmak ve yönetmek için kullanılan, Git tabanlı bir sürüm kontrol ve işbirliği platformudur." />
         </div>
       </section>
       <section id='experiences' className='flex flex-col md:flex-row gap-[50px] justify-between w-full mt-[100px]'>
