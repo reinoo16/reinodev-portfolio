@@ -5,7 +5,9 @@ import htmlIcon from './images/html.png'
 import cssIcon from './images/css.png'
 import jsIcon from './images/js.png'
 import reactIcon from './images/react.png'
+import vueIcon from './images/vue.png'
 import tailwindIcon from './images/tailwind.png'
+import scssIcon from './images/scss.png'
 import ExperienceCard from './components/ExperienceCard';
 import ProjectCard from './components/ProjectCard';
 import BenimFirmam from './images/benimfirmam.PNG';
@@ -78,7 +80,9 @@ function App() {
           <TechnologyCard icon={cssIcon} title="CSS" description="CSS (Cascading Style Sheets), web sayfalarının görünümünü ve düzenini tasarlamak için kullanılan bir stil dilidir." />
           <TechnologyCard icon={jsIcon} title="Javascript" description="JavaScript, dinamik ve yüksek seviyeli bir programlama dilidir." />
           <TechnologyCard icon={reactIcon} title="React JS" description="React, kullanıcı arayüzleri oluşturmak için kullanılan açık kaynaklı bir JavaScript kütüphanesidir." />
+          <TechnologyCard icon={vueIcon} title="Vue JS" description="Vue.js, kullanıcı arayüzleri ve tek sayfalık uygulamalar (SPA) oluşturmak için kullanılan, açık kaynaklı bir araçtır." />
           <TechnologyCard icon={tailwindIcon} title="Tailwind CSS" description="Tailwind CSS, hızlı ve esnek bir şekilde modern web sayfaları tasarlamak için kullanılan bir yardımcı stil kütüphanesidir." />
+          <TechnologyCard icon={scssIcon} title="SCSS" description="(Sassy CSS), Sass'ın (Syntactically Awesome Style Sheets) popüler sözdizimlerinden biridir ve CSS'in yeteneklerini genişleten bir preprocessor'dür." />
         </div>
       </section>
       <section id='experiences' className='flex flex-col md:flex-row gap-[50px] justify-between w-full mt-[100px]'>
@@ -98,14 +102,14 @@ function App() {
           <p className='text-center'>Öğrendiğim becerileri pratiğe dökebilmek için veya freelance olarak hizmet verdiğim projeler.</p>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 w-full gap-x-[20px] gap-y-[30px]'>
-          <ProjectCard img={Musaid} projectName="Musaid" description="Sayfa kodlamaları ve bazı API bağlama işlemleri yaptım." link="https://front.musaid.de/" />
-          <ProjectCard img={BenimFirmam} projectName="BenimFirmam" description="Dil değiştirme olayını kodlamada yardım ettim." link="https://benimfirmam.com/" />
-          <ProjectCard img={LodosKaraburun} projectName="Lodos Karaburun" description="Front End kısmında ufak hata düzeltmeleri, slider kodlaması vs. yaptım." link="https://lodoskaraburun.com/" />
-          <ProjectCard img={OddoTex} projectName="Oddo Tekstil" description="Bütün sayfalarının front end kodlamasını yaptım." link="https://oddotex.com/" />
-          <ProjectCard img={Sento} projectName="Sento" description="Front End kısmında hata düzeltmeleri yaptım ve bazı Gsap animasyonları ile ilgilendim." link="https://sento.com.tr/" />
-          <ProjectCard img={Weather} projectName="Hava Durumu" description="Open Weather Map API'ını kullanarak React ile geliştirdiğim bir hava durumu uygulaması." link="https://weather-app-reino.vercel.app/" />
-          <ProjectCard img={Doviz} projectName="Döviz Kuru Takip" description="React ile geliştirdiğim, döviz kurunun takip edilebileceği ve dönüştürme işlemlerinin bulunduğu bir uygulama." link="https://doviz-kuru-takip.vercel.app/" />
-          <ProjectCard img={Todo} projectName="To-Do List" description="React ile geliştirdiğim, yapılacak görevlerin eklenip, silinebileceği ve bittiğine dair işaret bırakılabilen bir to-do list." link="https://reino-todo-list.vercel.app/" />
+          <ProjectCard img={Musaid} projectName="Musaid" link="https://front.musaid.de/" />
+          <ProjectCard img={BenimFirmam} projectName="BenimFirmam" link="https://benimfirmam.com/" />
+          <ProjectCard img={LodosKaraburun} projectName="Lodos Karaburun" link="https://lodoskaraburun.com/" />
+          <ProjectCard img={OddoTex} projectName="Oddo Tekstil" link="https://oddotex.com/" />
+          <ProjectCard img={Sento} projectName="Sento" link="https://sento.com.tr/" />
+          <ProjectCard img={Weather} projectName="Hava Durumu" link="https://weather-app-reino.vercel.app/" />
+          <ProjectCard img={Doviz} projectName="Döviz Kuru Takip" link="https://doviz-kuru-takip.vercel.app/" />
+          <ProjectCard img={Todo} projectName="To-Do List" link="https://reino-todo-list.vercel.app/" />
         </div>
       </section>
       <footer id='footer' className='flex flex-col pb-[20px] items-center gap-[40px] w-full mt-[100px]'>

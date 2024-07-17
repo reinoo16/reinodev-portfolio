@@ -10,7 +10,6 @@ function ProjectCard(props) {
             <div className="flex flex-col gap-[18px] w-full">
                 <div className="flex flex-col gap-[12px] w-full">
                     <h2 className='text-[23px] font-semibold text-black w-full'>{props.projectName}</h2>
-                    <p className='font-normal text-[16px] text-black70 w-full'>{props.description}</p>
                 </div>
                 {
                     props.link ?
