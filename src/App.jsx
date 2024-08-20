@@ -54,11 +54,11 @@ function App() {
         </nav>
         <nav className={`absolute w-full md:hidden transition-all duration-300 max-h-0 ${navDropdown ? 'max-h-[230.5px] p-[24px_40px] mt-[12px]' : 'max-h-0 p-0 m-0'} overflow-hidden flex flex-col items-center justify-center gap-[26px] bg-black rounded-[36px]`}>
           <ul className='flex flex-col items-center gap-[20px]'>
-            <li className='font-normal text-[17px] text-white'><a href="#technologies">Teknolojiler</a></li>
-            <li className='font-normal text-[17px] text-white'><a href="#experiences">Deneyimler</a></li>
-            <li className='font-normal text-[17px] text-white'><a href="#projects">Projeler</a></li>
+            <li className='font-normal text-[17px] text-white'><a href="#technologies">Technologies</a></li>
+            <li className='font-normal text-[17px] text-white'><a href="#experiences">Experiences</a></li>
+            <li className='font-normal text-[17px] text-white'><a href="#projects">Projects</a></li>
           </ul>
-          <a className='p-[8px_32px] bg-white rounded-[16px] text-black font-normal text-[16px]' href="#footer">İletişim</a>
+          <a className='p-[8px_32px] bg-white rounded-[16px] text-black font-normal text-[16px]' href="#footer">Contact</a>
         </nav>
         <section className='flex flex-col items-center justify-center gap-[50px] max-w-[740px] mx-auto py-[40px] h-[calc(100vh-86px)]'>
           <div className='section-title items-center'>
