@@ -43,11 +43,11 @@ function App() {
         <nav className='p-[13px_40px] flex gap-[20px] items-center justify-between w-full h-[66px] rounded-[36px] bg-black'>
           <a className='font-semibold text-[20px] sm:text-[23px] leading-[100%] text-white' href="#">reino.dev</a>
           <ul className='hidden md:flex justify-center items-center gap-[20px]'>
-            <li className='font-normal text-[17px] text-white'><a href="#technologies">Teknolojiler</a></li>
-            <li className='font-normal text-[17px] text-white'><a href="#experiences">Deneyimler</a></li>
-            <li className='font-normal text-[17px] text-white'><a href="#projects">Projeler</a></li>
+            <li className='font-normal text-[17px] text-white'><a href="#technologies">Technologies</a></li>
+            <li className='font-normal text-[17px] text-white'><a href="#experiences">Experiences</a></li>
+            <li className='font-normal text-[17px] text-white'><a href="#projects">Projects</a></li>
           </ul>
-          <a className='hidden md:inline-block p-[8px_32px] bg-white rounded-[16px] text-black font-normal text-[16px]' href="#footer">İletişim</a>
+          <a className='hidden md:inline-block p-[8px_32px] bg-white rounded-[16px] text-black font-normal text-[16px]' href="#footer">Contact</a>
           <svg className='md:hidden' style={{ cursor: 'pointer' }} onClick={() => setNavDropdown(!navDropdown)} xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-list" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
           </svg>
@@ -62,9 +62,9 @@ function App() {
         </nav>
         <section className='flex flex-col items-center justify-center gap-[50px] max-w-[740px] mx-auto py-[40px] h-[calc(100vh-86px)]'>
           <div className='section-title items-center'>
-            <span className='!w-max'>👋 Hoşgeldiniz</span>
-            <h1 className='text-center'>Merhaba, ben Ali. Front End alanı ile ilgileniyorum.</h1>
-            <p className='text-center'>Web alanında projeler tasarlayıp, daha sonra tasarladığım bu projeleri kodluyorum. Öğrenebilmek amaçlı kendi projelerimin Back End tarafını Node JS ile geliştiriyorum. Back End tarafında şuan çok bilgim olmadığından dolayı hizmet olarak sadece Front End hizmeti sunuyorum.</p>
+            <span className='!w-max'>👋 Welcome</span>
+            <h1 className='text-center'>Hello, I'm Ali. I'm interested in the Front End field.</h1>
+            <p className='text-center'>I design projects in the web domain and then code these projects. To learn, I develop the Back End of my own projects using Node.js. Since I don't have much knowledge of the Back End yet, I only offer Front End services.</p>
           </div>
           <div className='w-full h-full lg:h-[474px] rounded-[50px] overflow-hidden'>
             <img className='w-full h-full object-cover object-center' src={heroImg} alt="" />
@@ -73,37 +73,37 @@ function App() {
       </header>
       <section id='technologies' className='section'>
         <div className='section-title max-w-[400px]'>
-          <span>Teknolojiler</span>
-          <h1>Kullandığım Bazı Teknolojiler</h1>
-          <p>Projelerde kullanabildiğim, daha önce kullanmış olduğum teknolojilere göz atın.</p>
+          <span>Technologies</span>
+          <h1>Some of the Technologies I Use</h1>
+          <p>Check out the technologies I can use and have used in previous projects.</p>
         </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[20px] w-full'>
-          <TechnologyCard icon={htmlIcon} title="HTML" description="HTML (Hypertext Markup Language), web sayfalarının temel yapı taşı olan bir işaretleme dilidir." />
-          <TechnologyCard icon={cssIcon} title="CSS" description="CSS (Cascading Style Sheets), web sayfalarının görünümünü ve düzenini tasarlamak için kullanılan bir stil dilidir." />
-          <TechnologyCard icon={jsIcon} title="Javascript" description="JavaScript, dinamik ve yüksek seviyeli bir programlama dilidir." />
-          <TechnologyCard icon={reactIcon} title="React JS" description="React, kullanıcı arayüzleri oluşturmak için kullanılan açık kaynaklı bir JavaScript kütüphanesidir." />
-          <TechnologyCard icon={vueIcon} title="Vue JS" description="Vue.js, kullanıcı arayüzleri ve tek sayfalık uygulamalar (SPA) oluşturmak için kullanılan, açık kaynaklı bir araçtır." />
-          <TechnologyCard icon={tailwindIcon} title="Tailwind CSS" description="Tailwind CSS, hızlı ve esnek bir şekilde modern web sayfaları tasarlamak için kullanılan bir yardımcı stil kütüphanesidir." />
-          <TechnologyCard icon={scssIcon} title="SCSS" description="(Sassy CSS), Sass'ın (Syntactically Awesome Style Sheets) popüler sözdizimlerinden biridir ve CSS'in yeteneklerini genişleten bir preprocessor'dür." />
-          <TechnologyCard icon={gitlabIcon} title="GitLab" description="GitLab, yazılım geliştirme süreçlerini yönetmek, sürüm kontrolü sağlamak ve DevOps uygulamalarını desteklemek için kullanılan, web tabanlı bir platformdur." />
-          <TechnologyCard icon={githubIcon} title="GitHub" description="GitHub, yazılım geliştirme projelerini barındırmak ve yönetmek için kullanılan, Git tabanlı bir sürüm kontrol ve işbirliği platformudur." />
+          <TechnologyCard icon={htmlIcon} title="HTML" description="HTML (Hypertext Markup Language) is a markup language that serves as the fundamental building block of web pages." />
+          <TechnologyCard icon={cssIcon} title="CSS" description="CSS (Cascading Style Sheets) is a styling language used to design the appearance and layout of web pages." />
+          <TechnologyCard icon={jsIcon} title="Javascript" description="JavaScript is a dynamic and high-level programming language." />
+          <TechnologyCard icon={reactIcon} title="React JS" description="React is an open-source JavaScript library used for building user interfaces." />
+          <TechnologyCard icon={vueIcon} title="Vue JS" description="Vue.js is an open-source tool used for building user interfaces and single-page applications (SPAs)." />
+          <TechnologyCard icon={tailwindIcon} title="Tailwind CSS" description="Tailwind CSS is a utility-first CSS framework used for designing modern web pages quickly and flexibly." />
+          <TechnologyCard icon={scssIcon} title="SCSS" description="(Sassy CSS) is one of the popular syntaxes of Sass (Syntactically Awesome Style Sheets) and is a preprocessor that extends the capabilities of CSS." />
+          <TechnologyCard icon={gitlabIcon} title="GitLab" description="GitLab is a web-based platform used for managing software development processes, providing version control, and supporting DevOps practices." />
+          <TechnologyCard icon={githubIcon} title="GitHub" description="GitHub is a Git-based version control and collaboration platform used for hosting and managing software development projects." />
         </div>
       </section>
       <section id='experiences' className='flex flex-col md:flex-row gap-[50px] justify-between w-full mt-[100px]'>
         <div className='section-title max-w-[520px]'>
-          <span>Deneyimler</span>
-          <h1>İş Deneyimlerim, Geçmişim</h1>
-          <p>Çalışmış olduğum, hizmette bulunduğum alanlar, işler.</p>
+          <span>Experiences</span>
+          <h1>My Work Experience, Background</h1>
+          <p>Areas I have worked in and services I have provided.</p>
         </div>
-        <ExperienceCard history="2023 - ..." job="Freelance Front End Developer" description="- Kumsal Ajans'ın web projelerine 'front end' alanında freelance olarak hizmet vermeye başladım.
-- Öğrendiklerimi pratiğe dökmek ve portfolyoma ekleyebilmek için web projeleri tasarlayıp, geliştirdim.
-- Şuan ki hedefim geliştirdiğim web projelerinde Back End alanında da gelişip, daha fazla şirkete, ajansa ulaşarak ‘Freelance Fullstack Web Developer’ olarak hizmet verebilmek." />
+        <ExperienceCard history="2023 - ..." job="Freelance Front End Developer" description="- I began providing freelance front-end services for Kumsal Ajans's web projects.
+- I designed and developed web projects to put my knowledge into practice and to add to my portfolio.
+- My current goal is to improve my Back End skills in the web projects I develop and to reach more companies and agencies to offer services as a Freelance Fullstack Web Developer." />
       </section>
       <section id='projects' className='section items-center'>
         <div className="section-title items-center max-w-[700px]">
-          <span>Projeler</span>
-          <h1 className='text-center'>Üzerinde Çalışmış Olduğum Projeler</h1>
-          <p className='text-center'>Öğrendiğim becerileri pratiğe dökebilmek için veya freelance olarak hizmet verdiğim projeler.</p>
+          <span>Projects</span>
+          <h1 className='text-center'>Projects I Have Worked On</h1>
+          <p className='text-center'>Projects where I applied the skills I've learned or provided freelance services.</p>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 w-full gap-x-[20px] gap-y-[30px]'>
           <ProjectCard img={Musaid} projectName="Musaid" link="https://front.musaid.de/" />
@@ -111,8 +111,8 @@ function App() {
           <ProjectCard img={LodosKaraburun} projectName="Lodos Karaburun" link="https://lodoskaraburun.com/" />
           <ProjectCard img={OddoTex} projectName="Oddo Tekstil" link="https://oddotex.com/" />
           <ProjectCard img={Sento} projectName="Sento" link="https://sento.com.tr/" />
-          <ProjectCard img={Weather} projectName="Hava Durumu" link="https://weather-app-reino.vercel.app/" />
-          <ProjectCard img={Doviz} projectName="Döviz Kuru Takip" link="https://doviz-kuru-takip.vercel.app/" />
+          <ProjectCard img={Weather} projectName="Weather App" link="https://weather-app-reino.vercel.app/" />
+          <ProjectCard img={Doviz} projectName="Currency Exchange Rate Tracker" link="https://doviz-kuru-takip.vercel.app/" />
           <ProjectCard img={Todo} projectName="To-Do List" link="https://reino-todo-list.vercel.app/" />
         </div>
       </section>
@@ -156,9 +156,8 @@ function App() {
               </div>
             </a>
           </div>
-          <button onClick={downloadCv} className='rounded-[16px] text-white text-[16px] font-normal p-[8px_48px] bg-black'>CV</button>
         </div>
-        <span className='font-normal text-[14px] text-center text-black70'>© 2024 Reino Dev. Tüm hakları saklıdır.</span>
+        <span className='font-normal text-[14px] text-center text-black70'>© 2024 Reino Dev. All rights reserved.</span>
       </footer>
     </div>
   );
