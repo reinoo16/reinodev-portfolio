@@ -64,7 +64,7 @@ function App() {
           <div className='section-title items-center'>
             <span className='!w-max'>👋 Welcome</span>
             <h1 className='text-center'>Hello, I'm Ali. I'm interested in the Front End field.</h1>
-            <p className='text-center'>I design projects in the web domain and then code these projects. To learn, I develop the Back End of my own projects using Node.js. Since I don't have much knowledge of the Back End yet, I only offer Front End services.</p>
+            <p className='text-center'>Since around September 2023, I have been providing freelance front-end services on various web projects. Currently, I am working towards becoming a full-stack web developer, and I am developing a simple online messaging application, which I plan to publish as a real project on the web.</p>
           </div>
           <div className='w-full h-full lg:h-[474px] rounded-[50px] overflow-hidden'>
             <img className='w-full h-full object-cover object-center' src={heroImg} alt="" />
