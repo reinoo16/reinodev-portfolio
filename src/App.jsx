@@ -64,7 +64,7 @@ function App() {
           <div className='section-title items-center'>
             <span className='!w-max'>👋 Welcome</span>
             <h1 className='text-center'>Hello, I'm Ali. I'm interested in the Front End field.</h1>
-            <p className='text-center'>Since around September 2023, I have been providing freelance front-end services on various web projects. Currently, I am working towards becoming a full-stack web developer, and I am developing a simple online messaging application, which I plan to publish as a real project on the web.</p>
+            <p className='text-center'>Since around September 2023, I have been providing freelance front-end services for various web projects. During this time, one of my goals has been to become a full-stack web developer.</p>
           </div>
           <div className='w-full h-full lg:h-[474px] rounded-[50px] overflow-hidden'>
             <img className='w-full h-full object-cover object-center' src={heroImg} alt="" />
@@ -96,8 +96,7 @@ function App() {
           <p>Areas I have worked in and services I have provided.</p>
         </div>
         <ExperienceCard history="2023 - ..." job="Freelance Front End Developer" description="- I began providing freelance front-end services for Kumsal Ajans's web projects.
-- I designed and developed web projects to put my knowledge into practice and to add to my portfolio.
-- My current goal is to improve my Back End skills in the web projects I develop and to reach more companies and agencies to offer services as a Freelance Fullstack Web Developer." />
+- I designed and developed web projects to put my knowledge into practice and to add to my portfolio." />
       </section>
       <section id='projects' className='section items-center'>
         <div className="section-title items-center max-w-[700px]">
@@ -107,7 +106,6 @@ function App() {
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 w-full gap-x-[20px] gap-y-[30px]'>
           <ProjectCard img={Musaid} projectName="Musaid" link="https://front.musaid.de/" />
-          <ProjectCard img={BenimFirmam} projectName="BenimFirmam" link="https://benimfirmam.com/" />
           <ProjectCard img={LodosKaraburun} projectName="Lodos Karaburun" link="https://lodoskaraburun.com/" />
           <ProjectCard img={OddoTex} projectName="Oddo Tekstil" link="https://oddotex.com/" />
           <ProjectCard img={Sento} projectName="Sento" link="https://sento.com.tr/" />
